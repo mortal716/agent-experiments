@@ -4,6 +4,9 @@
 **/cmake-build-*/
 **/smoke-build.*/
 
+# 独立实验构建目录
+**/build-*/
+
 # CMake / CTest 生成文件
 **/CMakeFiles/
 **/CMakeCache.txt
