@@ -1,0 +1,38 @@
+# C/C++ 构建目录
+**/build/
+**/build-*/
+**/cmake-build-*/
+**/smoke-build.*/
+
+# CMake / CTest 生成文件
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Testing/
+
+# 编译中间产物
+*.o
+*.a
+*.so
+*.so.*
+*.out
+
+# Python 虚拟环境及缓存
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+**/.pytest_cache/
+
+# 密钥配置，不提交
+.env
+.env.*
+!.env.example
+
+# 日志和波形
+*.log
+*.vcd
+*.fst
+
+# 系统文件
+.DS_Store
+Thumbs.db
